@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="162dp"
+        android:text="Sign in "
+        android:textColor="#FBFBFB"
+        android:textColorLink="#3A3939"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/newmail"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="204dp"
+        android:layout_marginEnd="37dp"
+        android:background="#B1D4E0"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="20dp"
+        android:hint="Enter your  mail"
+        android:inputType="textEmailAddress"
+        android:padding="18dp"
+        android:textColor="#627580"
+        android:textColorHint="#627580"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="305dp"
+        android:layout_marginEnd="35dp"
+        android:background="#B1D4E0"
+        android:drawableLeft="@drawable/ic_baseline_key_24"
+        android:drawablePadding="20dp"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:padding="18dp"
+        android:textColor="#627580"
+        android:textColorHint="#627580"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginBottom="254dp"
+        android:backgroundTint="#2E8BC0"
+        android:text="login " />
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="197dp"
+        android:text="registerNow"
+        android:textColor="#2E8BC0"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginBottom="197dp"
+        android:text="you dont have an account ?"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>

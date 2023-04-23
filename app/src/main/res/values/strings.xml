@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">project</string>
+    <string name="title_activity_index">index</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoiZHJhZ280d2luIiwiYSI6ImNsZDJ5Zmx5MjAwNjgzeG10cGY5ODFpb2sifQ.bUK6BeftLc2Y5qxQZSWIsw</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="distance">Distance :</string>
+    <string name="money">Receipt :</string>
+    <string name="choose_your_positions">CHOOSE YOUR POSITIONS</string>
+    <string name="todo">TODO</string>
+    <string name="hi">HI,</string>
+
+    <string name="buy_now">Buy now</string>
+</resources>
